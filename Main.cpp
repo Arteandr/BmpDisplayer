@@ -9,7 +9,7 @@ int main(int argc, char* argv[]) {
 	SetConsoleCP(1251);
 
 	if (argc != 2) {
-		std::cerr << "Использование: drawBmp.exe <путь_к_BMP_файлу>" << std::endl;
+		std::cerr << "Использование: bmp-drawer.exe <путь_к_BMP_файлу>" << std::endl;
 		return 1;
 	}
 
